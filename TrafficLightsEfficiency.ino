@@ -93,6 +93,9 @@ void redLight() {
 }
 
 void loop() {
+
+  lcd.scrollDisplayLeft();
+  delay(400);
   unsigned long currentMillis = millis();
   
   switch(state) {
@@ -133,4 +136,5 @@ void loop() {
       break;
   }
 }
+
 
