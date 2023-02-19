@@ -9,4 +9,5 @@ The main purpose of this system is to regulate traffic lights in a scanned envir
 ![image](https://user-images.githubusercontent.com/103757105/219933796-bed1a158-e6ba-4ba5-b34e-86b4c060a9f3.png)
 
 The Arduino UNO is used here, along with an assortment of 220 ohm resistors to regulate the sequential light control of a traffic intersection. 
+The Ultrasonic sensor is used to measure the distance of an oncoming pedestrian. At the approximate time of the pedestrian finishing their crossing path, the traffic lights will resume their usual blinking pattern.
 
