@@ -1,9 +1,9 @@
 
-int red = 10;
+int red = 10; //assigning variables to Arduino UNO Digital PWN ports
 int yellow = 9;
 int green = 8;
 
-int delayGreen = 10000;
+int delayGreen = 10000; //controlling time delay between light changes
 int delayYellow = 3000;
 int delayRed = 10000;
 
@@ -15,8 +15,8 @@ void setup(){
   
 }
 
-void loop(){
-  greenLight();
+void loop(){  //infinitely repeating sequential light control
+  greenLight(); 
   delay(delayGreen);
 
   yellowLight();
